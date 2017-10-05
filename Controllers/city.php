@@ -5,30 +5,24 @@
  */
 
 class City {
-    private $countrycode;
-    private $district;
-    private $id;
-    private $name;
-    private $population;
+    private $city_name;
+    private $city_countrycode;
+    private $city_district ;
+    private $city_population;
 
-    public function __construct($cityCountryCode, $cityDistrict, $cityID, $cityName, $cityName, $cityPopulation) {
-        $this->countrycode = $cityCountryCode;
-        $this->district = $cityDistrict;
-        $this->id = $cityName;
-        $this->name = $cityDistrict;
-        $this->population = $cityPopulation;
+    public function __construct($name, $countrycode, $district, $population) {
+        $this->city_name = $name;
+        $this->city_countrycode= $countrycode;
+        $this->city_district = $district;
+        $this->city_population = $population;
     }
 
-    public function getCountryCode() {
-        return $this->countrycode;
+    public function getName() {
+        return $this->city_name;
     }
 
-    public function getDistrict() {
-        return $this->district;
-    }
-
-    public function getID() {
-        return $this->id;
+    public function getCity_countrycode() {
+        return $this->city_countrycode;
     }
 
     public function getName() {
