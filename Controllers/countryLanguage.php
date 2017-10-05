@@ -5,8 +5,8 @@
  */
 
 class CountryLanguage {
-    public $country;
-    public $language;
-    public $isOfficical;
-    public $percentage;
+    private $country;
+    private $language;
+    private $isOfficical;
+    private $percentage;
 }

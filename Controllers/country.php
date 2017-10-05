@@ -5,23 +5,23 @@
  */
 
 class Country {
-    public $gnp;
-    public $region;
-    public $continent;
-    public $gnpold;
-    public $surfacearea;
-    public $name;
-    public $localname;
-    public $population;
-    public $indepyear;
-    public $lifeexpectancy;
-    public $govermentform;
-    public $headofstate;
-    public $capital;
-    public $code;
-    public $code2;
+    private $gnp;
+    private $region;
+    private $continent;
+    private $gnpold;
+    private $surfacearea;
+    private $name;
+    private $localname;
+    private $population;
+    private $indepyear;
+    private $lifeexpectancy;
+    private $govermentform;
+    private $headofstate;
+    private $capital;
+    private $code;
+    private $code2;
 
-    public function __construct() {
+    private function __construct() {
         $this->code;
         return code;
     }
