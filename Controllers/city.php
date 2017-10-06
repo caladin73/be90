@@ -43,7 +43,7 @@ class City {
         $CreateCity = array();
 
         $sql = "INSERT INTO city (name, countrycode, district, population)";
-        $sql .= "VALUES ($name, $countrycode, $district, $population)";
+//      $sql .= "VALUES ($name, $countrycode, $district, $population)";
         try {
             $q = $dbh->prepare($sql);
             $q->bindValue(':name', $name);
